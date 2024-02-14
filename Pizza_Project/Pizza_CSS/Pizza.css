@@ -1,0 +1,88 @@
+/* Set background color for the entire page body */
+body {
+	background-color: rgb(139, 0, 32);
+}
+
+/* Style for main headings (h1) */
+h1 {
+	font-family: Helvetica; /* Set font family for h1 */
+	color: white; /* Set text color for h1 */
+	text-align: center; /* Center-align h1 text */
+}
+
+/* Style for subheadings (h3) */
+h3 {
+	font-family: Arial; /* Set font family for h3 */
+	color: snow; /* Set text color for h3 */
+}
+
+/* Style for generic div elements */
+div {
+	color: lightyellow; /* Set text color for div */
+    font-family: Monospace; /* Set font family for div */
+}
+
+/* Style for specific div with ID 'menuBG' */
+#menuBG {
+	width:400px;
+	height:470px;
+	margin:10px auto;
+}
+
+/* Style for specific div with ID 'frmMenu' */
+#frmMenu {
+	width:600px;
+	height:200px;
+}
+
+/* Style for specific div with ID 'totalPrice' */
+#totalPrice {
+	width:200px;
+	height:190px;
+	margin:20px auto;
+	float:right;
+}
+
+/* Styles for floating divs with different classes (left, center, right) */
+.left {
+	width:200px;
+	height:200px;
+	float:left;
+}
+
+.center {
+	width:200px;
+	height:200px;
+	float:left;
+}
+
+.right {
+	width:200px;
+	height:200px;
+	float:right;
+}
+
+/* Style for specific div with ID 'showText' */
+#showText {
+	width:200px;
+	height:190px;
+	margin:0px auto;
+	float:left;
+}
+
+/* Style for specific div with ID 'cart' */
+#cart {
+	top:0;
+	margin:0px auto;
+	width:400px;
+	height:200px;
+}
+
+/* Style for specific button with ID 'btnOrder' */
+#btnOrder {
+	margin:10px 0px 0px 100px;
+	width:100px;
+	height:40px;
+	display: block;
+	margin: 25px auto;
+}
